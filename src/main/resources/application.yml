@@ -6,4 +6,5 @@ spring:
           uri: https://github.com/kosssaa/configuration.git
 eureka:
   client:
-    service-url: http://localhost:8010/eureka/
+    service-url:
+      defaultZone: http://localhost:8010/eureka/
